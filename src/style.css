@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-size: 400%, 400%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    -45deg,
+    #003547,
+    #c2bb00,
+    #e1523d,
+    #ed8b16,
+    #005e54
+  );
+  background-repeat: no-repeat;
+}
+
+.cont {
+  max-width: 900px;
+  padding: 10px;
+}
+
+.question {
+  color: darkred;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 5px 0px;
+  background-color: rgba(253, 252, 252, 0);
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.par {
+  font-size: 1.1rem;
+}
